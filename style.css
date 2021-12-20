@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Roboto:wght@700&family=Work+Sans:wght@400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #24292E;
+}
+
+.fondo {
+    padding: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("./Img-index/fondo\ intro.svg");
+    background-size: cover;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.card-text {
+    font-size: 1.5rem;
+}
+
+.card-body a {
+    font-size: 1rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    margin: 3rem;
+    padding: 1rem;
+}
+
+.carousel-slide {
+    display: flex;
+    justify-content: center;
+}
+
+.encabezado h2 {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.cartas {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-titles {
+    font-size: 1.5rem;
+}
+
+.intro2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem
+}
+
+.botones {
+    margin-right: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.pietext {
+    font-size: 2rem;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pie2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
