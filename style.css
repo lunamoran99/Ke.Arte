@@ -127,3 +127,19 @@ h2 {
     align-items: center;
     justify-content: center;
 }
+
+.intro-2 {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.intro-3 {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
