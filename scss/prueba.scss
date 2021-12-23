@@ -1,0 +1,135 @@
+    @import "menu";
+    /* el @import es para llamar a otras hojas de estilo*/
+    
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Roboto:wght@700&family=Work+Sans:wght@400;700&display=swap');
+    * {
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: #24292E;
+        /* Primer intro - texto y cta */
+        .card-text {
+            font-size: 1.5rem;
+        }
+        .card-title {
+            font-size: 3rem;
+        }
+        .fondo {
+            padding: 10vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background-image: url("./Img-index/fondo intro.svg");
+            background-size: cover;
+            .row {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+            .card {
+                margin: 3rem;
+                padding: 1rem;
+            }
+            .card-body {
+                .card-title {
+                    margin-bottom: 1rem;
+                }
+                a {
+                    font-size: 1rem;
+                    margin-top: 2rem;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+            /* carrusel */
+            .carousel-slide {
+                display: flex;
+                justify-content: center;
+            }
+        }
+        /* galeria - titulo */
+        .encabezado {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 4rem;
+            margin-right: 2rem;
+            margin-left: 2rem;
+            padding-left: 4rem;
+            padding-right: 4rem;
+            h2 {
+                color: #fff;
+                font-size: 1rem;
+            }
+        }
+        /* fotos */
+        .cartas {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .intro2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 4rem
+        }
+        .intro3 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 4rem;
+            .botones {
+                margin-right: 6rem;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+        }
+        footer {
+            .pietext {
+                font-size: 2rem;
+            }
+            .redes {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .pie2 {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+        }
+        /* token.html */
+        h2 {
+            color: #fff;
+            display: flex;
+            justify-content: center;
+        }
+        .intro-2 {
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .intro-3 {
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .suscripcion {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }

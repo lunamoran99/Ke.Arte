@@ -1,0 +1,25 @@
+{
+    "name": "ke-arte",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build-css": "node-sass --include-path scss scss/prueba.scss css/style.css",
+        "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lunamoran99/Ke.Arte.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/lunamoran99/Ke.Arte/issues"
+    },
+    "homepage": "https://github.com/lunamoran99/Ke.Arte#readme",
+    "dependencies": {
+        "node-sass": "^7.0.0",
+        "nodemon": "^2.0.15"
+    }
+}
