@@ -18,12 +18,12 @@ body {
   body .card-title {
     font-size: 3rem; }
   body .fondo {
+    background-image: url("./Img-index/fondo intro.svg");
+    background-size: cover;
     padding: 10vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-image: url("./Img-index/fondo intro.svg");
-    background-size: cover;
     /* carrusel */ }
     body .fondo .row {
       display: flex;
@@ -57,20 +57,26 @@ body {
   body .cartas {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: left;
     justify-content: space-around; }
+    body .cartas .card-body {
+      display: flex;
+      align-items: left;
+      flex-direction: column; }
   body .intro2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     padding: 4rem; }
   body .intro3 {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     padding: 4rem; }
     body .intro3 .botones {
-      margin-right: 6rem;
+      margin-right: 15rem;
       display: flex;
       align-items: center;
       justify-content: space-between; }
@@ -84,7 +90,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between; }
-  body h2 {
+  body .inputtt {
     color: #fff;
     display: flex;
     justify-content: center; }
@@ -95,7 +101,7 @@ body {
     flex-wrap: wrap;
     justify-content: center; }
   body .intro-3 {
-    padding: 1rem;
+    padding: 8rem;
     display: flex;
     align-items: center;
     flex-wrap: wrap;

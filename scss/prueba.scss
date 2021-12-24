@@ -20,12 +20,12 @@
             font-size: 3rem;
         }
         .fondo {
+            background-image: url("./Img-index/fondo intro.svg");
+            background-size: cover;
             padding: 10vh;
             display: flex;
             align-items: center;
             justify-content: space-around;
-            background-image: url("./Img-index/fondo intro.svg");
-            background-size: cover;
             .row {
                 display: flex;
                 align-items: center;
@@ -71,22 +71,29 @@
         .cartas {
             display: flex;
             flex-wrap: wrap;
-            align-items: center;
+            align-items: left;
             justify-content: space-around;
+            .card-body {
+                display: flex;
+                align-items: left;
+                flex-direction: column;
+            }
         }
         .intro2 {
             display: flex;
             align-items: center;
             justify-content: center;
+            flex-wrap: wrap;
             padding: 4rem
         }
         .intro3 {
             display: flex;
             align-items: center;
             justify-content: center;
+            flex-wrap: wrap;
             padding: 4rem;
             .botones {
-                margin-right: 6rem;
+                margin-right: 15rem;
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
@@ -108,7 +115,7 @@
             }
         }
         /* token.html */
-        h2 {
+        .inputtt {
             color: #fff;
             display: flex;
             justify-content: center;
@@ -121,7 +128,7 @@
             justify-content: center;
         }
         .intro-3 {
-            padding: 1rem;
+            padding: 8rem;
             display: flex;
             align-items: center;
             flex-wrap: wrap;
