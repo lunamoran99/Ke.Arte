@@ -19,7 +19,9 @@
     },
     "homepage": "https://github.com/lunamoran99/Ke.Arte#readme",
     "dependencies": {
-        "node-sass": "^7.0.0",
+        "node-sass": "^7.0.0"
+    },
+    "devDependencies": {
         "nodemon": "^2.0.15"
     }
 }

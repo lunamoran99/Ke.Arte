@@ -1,0 +1,9 @@
+$colores: ( color0: rgb(21, 75, 116), color1: rgb(36, 132, 206), color1T: rgba(27, 95, 148, 0.5), color2: rgb(40, 139, 214), color3: rgb(255, 235, 205), color4: rgb(252, 232, 207), color5: #ffffff, color6: black);
+$color0: map-get($colores, color0);
+$color1: map-get($colores, color1);
+$color1T: map-get($colores, color1T);
+$color2: map-get($colores, color2);
+$color3: map-get($colores, color3);
+$color4: map-get($colores, color4);
+$color5: map-get($colores, color5);
+$color6: map-get($colores, color6);

@@ -7,28 +7,27 @@
   list-style: none;
   box-sizing: border-box; }
 
+.contenedor, body .encabezado h2 {
+  color: #fff; }
+
 body {
   background-color: #24292E;
   /* Primer intro - texto y cta */
   /* galeria - titulo */
   /* fotos */
-  /* token.html */ }
+  /* token.html */
+  /* explorar-html*/ }
   body .card-text {
     font-size: 1.5rem; }
   body .card-title {
     font-size: 3rem; }
   body .fondo {
-    background-image: url("./Img-index/fondo intro.svg");
-    background-size: cover;
-    padding: 10vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* carrusel */ }
-    body .fondo .row {
-      display: flex;
-      align-items: center;
-      justify-content: space-around; }
+    flex-wrap: wrap; }
+    body .fondo h5 {
+      color: #2484ce; }
     body .fondo .card {
       margin: 3rem;
       padding: 1rem; }
@@ -39,9 +38,6 @@ body {
       margin-top: 2rem;
       display: flex;
       align-items: center; }
-    body .fondo .carousel-slide {
-      display: flex;
-      justify-content: center; }
   body .encabezado {
     display: flex;
     align-items: center;
@@ -52,7 +48,6 @@ body {
     padding-left: 4rem;
     padding-right: 4rem; }
     body .encabezado h2 {
-      color: #fff;
       font-size: 1rem; }
   body .cartas {
     display: flex;
@@ -66,20 +61,12 @@ body {
   body .intro2 {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     padding: 4rem; }
-  body .intro3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 4rem; }
-    body .intro3 .botones {
-      margin-right: 15rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between; }
+    body .intro2 img {
+      width: 683px;
+      height: 608px; }
   body footer .pietext {
     font-size: 2rem; }
   body footer .redes {
@@ -110,3 +97,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center; }
+  body .productos h2 {
+    margin-left: 5rem; }
+  body .productos .fotis {
+    margin: 4rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    body .productos .fotis .card {
+      margin: 2rem; }
