@@ -16,7 +16,8 @@ body {
   /* galeria - titulo */
   /* fotos */
   /* token.html */
-  /* explorar-html*/ }
+  /* explorar-html */
+  /* miperfil.html */ }
   body .card-text {
     font-size: 1.5rem; }
   body .card-title {
@@ -107,3 +108,18 @@ body {
     justify-content: space-around; }
     body .productos .fotis .card {
       margin: 2rem; }
+  body .introperfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    body .introperfil .descrip {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      body .introperfil .descrip h1 {
+        color: #fff;
+        margin: 1rem; }
+      body .introperfil .descrip p {
+        color: #fff;
+        width: 15rem; }
